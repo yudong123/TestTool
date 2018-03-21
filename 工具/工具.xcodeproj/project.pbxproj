@@ -28,6 +28,7 @@
 		4DFBB700205D837E007BF0F7 /* YDRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB6FF205D837E007BF0F7 /* YDRequestManager.m */; };
 		4DFBB703205D882A007BF0F7 /* YDBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB702205D882A007BF0F7 /* YDBaseResponse.m */; };
 		4DFBB706205DA41D007BF0F7 /* YDBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB705205DA41D007BF0F7 /* YDBaseRequest.m */; };
+		4DFCA4AE20621BC6008D05BC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFCA4AD20621BC6008D05BC /* Person.m */; };
 		F63B718E6028BD1E5EC0372D /* libPods-工具.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD795E3DF43D0CCDF0EFA339 /* libPods-工具.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,8 @@
 		4DFBB702205D882A007BF0F7 /* YDBaseResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseResponse.m; sourceTree = "<group>"; };
 		4DFBB704205DA41D007BF0F7 /* YDBaseRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBaseRequest.h; sourceTree = "<group>"; };
 		4DFBB705205DA41D007BF0F7 /* YDBaseRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBaseRequest.m; sourceTree = "<group>"; };
+		4DFCA4AC20621BC6008D05BC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4DFCA4AD20621BC6008D05BC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		B904A3EEF8C20235EC2954F3 /* Pods-工具.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-工具.release.xcconfig"; path = "Pods/Target Support Files/Pods-工具/Pods-工具.release.xcconfig"; sourceTree = "<group>"; };
 		BD795E3DF43D0CCDF0EFA339 /* libPods-工具.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-工具.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -162,7 +165,7 @@
 		4DC3794D205CD9AB0062D25B /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
-				4DFCA4AA206219DA008D05BC /* Model */,
+				4DFCA4AB20621BB1008D05BC /* Model */,
 				4D32D1A5205CF04F00129451 /* View */,
 				4D32D1A3205CEFE500129451 /* Controller */,
 				4D32D1A2205CEFB100129451 /* NetworkTool */,
@@ -188,9 +191,11 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		4DFCA4AA206219DA008D05BC /* Model */ = {
+		4DFCA4AB20621BB1008D05BC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4DFCA4AC20621BC6008D05BC /* Person.h */,
+				4DFCA4AD20621BC6008D05BC /* Person.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -336,6 +341,7 @@
 			files = (
 				4DD43443205EAEF10022F32C /* YDYiBoViewController.m in Sources */,
 				4DD43448205ECBD90022F32C /* YDPublishViewController.m in Sources */,
+				4DFCA4AE20621BC6008D05BC /* Person.m in Sources */,
 				4DD4343A205E79290022F32C /* YDNavUIBaseViewController.m in Sources */,
 				4DD4343D205E83AE0022F32C /* YDHomeViewController.m in Sources */,
 				4DD43434205E5E4E0022F32C /* YDNavigationBar.m in Sources */,
