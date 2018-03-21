@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  工具
+//
+//  Created by YuDong on 2018/3/17.
+//  Copyright © 2018年 YuDong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+// category
+#import "UIView+YDFrame.h"
+#import "UIColor+Random.h"
+
+// helpers
+#import "YDRequestManager.h"
+
+
+
+//弱引用/强引用  可配对引用在外面用WeakSelf(self)，block用StrongSelf(self)  也可以单独引用在外面用WeakSelf(self) block里面用weakself
+#define YDWeakSelf(type)  __weak typeof(type) weak##type = type
+#define YDStrongSelf(type)  __strong typeof(type) strong##type = type
+
+
+#endif
+#endif /* PrefixHeader_pch */
