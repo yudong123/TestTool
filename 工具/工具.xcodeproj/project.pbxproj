@@ -130,13 +130,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		4D32D1A4205CF02F00129451 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		4D32D1A5205CF04F00129451 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,8 +162,8 @@
 		4DC3794D205CD9AB0062D25B /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				4DFCA4AA206219DA008D05BC /* Model */,
 				4D32D1A5205CF04F00129451 /* View */,
-				4D32D1A4205CF02F00129451 /* Model */,
 				4D32D1A3205CEFE500129451 /* Controller */,
 				4D32D1A2205CEFB100129451 /* NetworkTool */,
 				4DD43422205E1E040022F32C /* Category */,
@@ -193,6 +186,13 @@
 				4DD43436205E5FAE0022F32C /* UIView+YDFrame.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		4DFCA4AA206219DA008D05BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		6C464812A9BE24489603B37F /* Frameworks */ = {
